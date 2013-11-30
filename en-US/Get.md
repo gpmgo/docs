@@ -42,7 +42,7 @@ Help information: `gopm get -h` or `gopm help get`:
 	
 ### gopm get <package name>@[<tag|commit|branch>:<value>]
 
-- - Feature: Fetch remote package(s) and dependencies to local repository according to specified version; but instead of using full import path, use project name.
+- Feature: Fetch remote package(s) and dependencies to local repository according to specified version; but instead of using full import path, use project name.
 - Example:
 	- Latest version: `gopm get xorm`.
 	- Certain branch: `gopm get xorm@branch:master`.
