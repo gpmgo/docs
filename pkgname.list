@@ -1,2 +1,3 @@
 beego=github.com/astaxie/beego
 xorm=github.com/lunny/xorm
+beeweb=github.com/beego/beeweb
