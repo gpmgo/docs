@@ -29,7 +29,7 @@ The executable will be produced under `$GOPATH/bin` in your file system; for glo
 ## Index
 
 - [Quick start](Quickstart.md)
-- [Command get](get.md)
+- [Command get](Get.md)
 - [Command bin](bin.md)
 - [Command gen](gen.md)
 - [Commnad run](run.md)

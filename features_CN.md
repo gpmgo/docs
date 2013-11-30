@@ -5,7 +5,6 @@ gopm
 * [程序结构](#11)
 * [Go包版本说明](#20)
 * [各命令的目标和作用](#30)
-	* [gopm help](#31) 
 	* [gopm sources](#32)
 	* [gopm list](#33)
 	* [gopm get](#34)
@@ -93,11 +92,6 @@ http://gopm.io
 
 <a id="30" name="30"></a>
 #各命令的目标和作用
-
-<a id="31" name="31"></a>
-###gopm help        
-
-显示当前可用的命令，以下命令中，[]表示可选，{}表示是参数
 
 <a id="32" name="32"></a>
 ###gopm sources [add|rm [{url}]]
