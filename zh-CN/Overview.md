@@ -35,3 +35,4 @@ go get github.com/gpmgo/gopm
 - [run 命令](run.md)
 - [build 命令](build.md)
 - [install 命令](install.md)
+- [gopmfile](gopmfile.md)

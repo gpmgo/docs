@@ -28,10 +28,11 @@ The executable will be produced under `$GOPATH/bin` in your file system; for glo
 
 ## Index
 
-- [Quick start](quickstart.md)
+- [Quick start](Quickstart.md)
 - [Command get](get.md)
 - [Command bin](bin.md)
 - [Command gen](gen.md)
 - [Commnad run](run.md)
 - [Command build](build.md)
 - [Commnad install](install.md)
+- [gopmfile](gopmfile.md)
