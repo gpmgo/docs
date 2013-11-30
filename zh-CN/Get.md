@@ -26,12 +26,12 @@ get 命令
 	   --force	force to update pakcage(s) and dependencies
 	   --example	download dependencies for example(s)
    
-### gopm get
+### `gopm get`
 
 - 功能：根据 gopmfile 拉取远程包及其依赖到本地仓库。
 - 示例：`gopm get`。
 
-### gopm get <import path>@[<tag|commit|branch>:<value>]
+### `gopm get <import path>@[<tag|commit|branch>:<value>]`
 
 - 功能：拉取指定版本的远程包及其依赖到本地仓库。
 - 示例：
@@ -40,7 +40,7 @@ get 命令
 	- 指定标签（tag）：`gopm get github.com/lunny/xorm@tag:v0.2.3`。
 	- 某个提交（commit）：`gopm get github.com/lunny/xorm@commit:6ffffe9`。
 	
-### gopm get <package name>@[<tag|commit|branch>:<value>]
+### `gopm get <package name>@[<tag|commit|branch>:<value>]`
 
 - 功能：拉取指定版本的远程包及其依赖到本地仓库；但可使用项目名称代替完整的导入路径。
 - 示例：

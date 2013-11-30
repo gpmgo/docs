@@ -26,12 +26,12 @@ Help information: `gopm get -h` or `gopm help get`:
 	   --force	force to update pakcage(s) and dependencies
 	   --example	download dependencies for example(s)
    
-### gopm get
+### `gopm get`
 
 - Feature: Fetch remote package(s) and dependencies to local repository according to gopmfile.
 - Example: `gopm get`.
 
-### gopm get <import path>@[<tag|commit|branch>:<value>]
+### `gopm get <import path>@[<tag|commit|branch>:<value>]`
 
 - Feature: Fetch remote package(s) and dependencies to local repository according to specified version.
 - Example:
@@ -40,7 +40,7 @@ Help information: `gopm get -h` or `gopm help get`:
 	- Specified tag: `gopm get github.com/lunny/xorm@tag:v0.2.3`.
 	- Fixed commit: `gopm get github.com/lunny/xorm@commit:6ffffe9`.
 	
-### gopm get <package name>@[<tag|commit|branch>:<value>]
+### `gopm get <package name>@[<tag|commit|branch>:<value>]`
 
 - Feature: Fetch remote package(s) and dependencies to local repository according to specified version; but instead of using full import path, use project name.
 - Example:
