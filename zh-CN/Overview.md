@@ -28,7 +28,7 @@ go get github.com/gpmgo/gopm
 
 ## 文档索引
 
-- [快速入门](quickstart.md)
+- [快速入门](Quickstart.md)
 - [get 命令](get.md)
 - [bin 命令](bin.md)
 - [gen 命令](gen.md)
