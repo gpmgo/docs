@@ -7,16 +7,12 @@ gopm
 * [各命令的目标和作用](#30)
 	* [gopm sources](#32)
 	* [gopm list](#33)
-	* [gopm get](#34)
 	* [gopm rm](#35)
 	* [gopm search](#36)
 	* [gopm doc](#37)
 	* [gopm serve](#38)
 	* [gopm sync](#39)
 	* [gopm import](#40)
-	* [gopm gen](#41)
-	* [gopm build](#42)
-	* [gopm run](#43)
 	* [gopm test](#44)
 * [gopmspec文件格式](#50)
 
@@ -106,14 +102,6 @@ http://gopm.io
 * []   列出所有本地的包
 * packagename   显示指定名称的包的详细信息
 
-<a id="34" name="34"></a>
-###gopm get [-u] [{packagename}[:{version}]] [-f {gopmfile}]
-
-* [] 查找当前目录下的所有.gopmfile文件，根据文件的描述下载所有的包
-* packagename 从源中下载某个包
-* -u packagename 从源中更新某个包
-* -f gopmfile 根据指定的文件来下载包
-
 <a id="35" name="35"></a>
 ###gopm rm {packagename}[:{version}]
 
@@ -146,28 +134,6 @@ http://gopm.io
 ###gopm import [{url}|{filepath}]
 
 将某个地址或者本地的包导入到本地仓库中，url应为可支持的源码托管站点或者gitLab
-
-<a id="41" name="41"></a>
-###gopm gen [{gopmfile}]
-
-扫描当前目录下的go工程，并自动生成一个.gopmfile的文件依赖文档，如果未指定，则文件名为.gopmfile，如果指定了，则为指定的文件名
-
-<a id="42" name="42"></a>
-###gopm build [-u]
-
-此命令依赖于go build
-
-1. 如果当前没有.gopmspec文件，则扫描当前的go工程的依赖，自动生成.gopmspec文档
-2. 根据.gopmspec文件自动下载所有需要的包，如果加了-u参数，则同时更新所有的包
-3. 根据.gopmspec文件自动切换gopath中的相关版本
-4. 调用go build对工程进行编译
-
-<a id="43" name="43"></a>
-###gopm run [{gofile}]
-
-此命令依赖于go run
-
-调用gopm build在临时文件夹生成可执行文件，并设置程序当前目录为当前目录，并执行
 
 <a id="44" name="44"></a>
 ###gopm test
