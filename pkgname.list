@@ -1,3 +1,15 @@
 beego=github.com/astaxie/beego
 xorm=github.com/lunny/xorm
 beeweb=github.com/beego/beeweb
+qbs=github.com/coocood/qbs
+jas=github.com/coocood/jas
+com=github.com/Unknwon/com
+gowalker=github.com/Unknwon/gowalker
+gopm=github.com/gpmgo/gopm
+goconfig=github.com/Unknwon/goconfig
+bee=github.com/beego/bee
+revel=github.com/robfig/revel
+martini=github.com/codegangsta/martini
+goconvey=github.com/smartystreets/goconvey
+qml=github.com/niemeyer/qml
+goquery=github.com/PuerkitoBio/goquery
