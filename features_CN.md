@@ -14,7 +14,6 @@ gopm
 	* [gopm sync](#39)
 	* [gopm import](#40)
 	* [gopm test](#44)
-* [gopmspec文件格式](#50)
 
 <a id="10" name="10"></a>
 # 总体设计目标
@@ -141,19 +140,3 @@ http://gopm.io
 此命令依赖于go test
 
 调用gopm build在临时文件夹生成可执行的测试文件，并设置程序当前目录为当前目录，并执行
-
-<a id="50" name="50"></a>
-#gopmspec文件格式
-
-.gopmspec文件的格式类似一个ini文件，当前分为两个section。
-build段内的依赖保存的是go build所需要依赖的所有包，一行一个，可用 =, >=等等，如果什么符号都没有，就是取最新版本
-
-```
-[build]
-xweb
-beego = tag:0.1
-xorm >= branch:0.2
-
-[test]
-testing
-```
