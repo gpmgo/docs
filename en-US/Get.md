@@ -115,4 +115,4 @@ See [well-known Go projects list](../pkgname.list) for details.
 - `--update, -u`: update pakcage(s) and dependencies if any.
 - `--example, -e`: download dependencies for example folder.
 - `--remote, -r`: download all pakcages to gopm local repository.
-- `--verbose, -v`: show process details
+- `--verbose, -v`: show process details.

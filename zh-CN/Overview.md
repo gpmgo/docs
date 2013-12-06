@@ -6,8 +6,6 @@ Gopm(Go 包管理工具) 是一个用于搜索、安装、更新和分享 Go 包
 ## 环境要求
 
 - Go 开发环境版本 >= 1.1。
-- 在 Mac OS 或 Unix 类系统下支持命令 `ln -s`。
-- 在 Windows 系统下支持命令 `mklink -j`（ **Windows Vista 或更高** ）。
 
 ## 安装步骤
 
