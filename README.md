@@ -1,7 +1,7 @@
 Go Package Manager Documentation
 ====
 
-An open source project for documentation of Go Package Manager.
+An open source project for documentation of [gopm](https://github.com/gpmgo/gopm) - Go Package Manager.
 
 ## Languages
 

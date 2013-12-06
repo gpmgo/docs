@@ -14,7 +14,7 @@ Gopm(Go 包管理工具) 是一个用于搜索、安装、更新和分享 Go 包
 因为我们暂时不提供二进制的发布，因此您必须在使用 gopm 之前安装 Go 开发环境 1.1 或更高。
 
 ```
-go get github.com/gpmgo/gopm
+go get -u github.com/gpmgo/gopm
 ```
 
 可执行文件将会生成在 `$GOPATH/bin` 目录下；为了更加方便的全局调用，我们建议您将该目录增加到 `PATH` 环境变量中。
