@@ -87,7 +87,7 @@ get 命令
 
 该命令下载最新版本的 xorm，并根据 gopmfile 下载它的依赖包。
 
-#### 固定分支：`gopm get github.com/lunny/xorm@branch:master`
+##### 固定分支：`gopm get github.com/lunny/xorm@branch:master`
 
 该命令下载 xorm 的 master 分支的最新版，并根据 gopmfile 下载它的依赖包。
 

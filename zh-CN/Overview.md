@@ -22,7 +22,7 @@ go get -u github.com/gpmgo/gopm
 - 无需安装 `git`、`svn` 或 `hg` 版本管理工具即可下载包（尽管您目前需要安装 git 工具以通过 `go get` 安装 gopm）。
 - 基于指定版本来下载、安装或构建您的包。
 - 在您未授权的情况下，`gopm build` 或 `gopm install` 命令的任何操作都发生在自身的 GOPATH 中而不会影响到您在全局 GOPATH 中的任何现有工作。
-- 您可以将您的 Go 项目置于任意目录。
+- 您可以将您的 Go 项目置于任意目录（通过 gopmfile）。
 
 ## 文档索引
 

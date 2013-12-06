@@ -19,7 +19,8 @@ Help information: `gopm install -h` or `gopm help install`:
 	If no argument is supplied, then gopmfile must be present
 	
 	OPTIONS:
-	   --verbose	show process details
+	   --pkg, -p		only install non-main packages
+	   --verbose, -v	show process details
    
 ### `gopm install`
 
@@ -33,4 +34,5 @@ Help information: `gopm install -h` or `gopm help install`:
 
 ## Options
 
+- `--pkg, -p`: only install non-main packages.
 - `-verbose`: show process details.

@@ -19,7 +19,8 @@ install 命令
 	If no argument is supplied, then gopmfile must be present
 	
 	OPTIONS:
-	   --verbose	show process details
+	   --pkg, -p		only install non-main packages
+	   --verbose, -v	show process details
    
 ### `gopm install`
 
@@ -33,4 +34,5 @@ install 命令
 
 ## 选项
 
-- `-verbose`：打印过程信息。
+- `--pkg, -p`：只安装非 main 包。
+- `--verbose, -v`：显示详细信息。

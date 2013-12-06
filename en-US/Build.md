@@ -16,6 +16,7 @@ Help information: `gopm build -h` or `gopm help build`:
 	gopm build <go build commands>
 	
 	OPTIONS:
+	   --verbose, -v	show process details
    
 ### `gopm build <go build commands>`
 
@@ -23,3 +24,5 @@ Help information: `gopm build -h` or `gopm help build`:
 - Example: `gopm build`.
 
 ## Options
+
+- `--verbose, -v`: show process details.

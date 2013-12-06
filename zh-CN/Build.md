@@ -16,6 +16,7 @@ build 命令
 	gopm build <go build commands>
 	
 	OPTIONS:
+	   --verbose, -v	show process details
    
 ### `gopm build <go build commands>`
 
@@ -23,3 +24,5 @@ build 命令
 - 示例：`gopm build`。
 
 ## 选项
+
+- `--verbose, -v`：显示详细信息。

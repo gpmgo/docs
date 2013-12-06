@@ -42,7 +42,7 @@ bin 命令
 
 该命令下载最新版本的 gopm，并将二进制构建至当前目录。
 
-#### 固定分支：`gopm bin github.com/gpmgo/gopm@branch:master`
+##### 固定分支：`gopm bin github.com/gpmgo/gopm@branch:master`
 
 该命令下载 gopm 的 master 分支的最新版，并将二进制构建至当前目录。
 
