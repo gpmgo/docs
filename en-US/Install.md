@@ -25,11 +25,13 @@ Help information: `gopm install -h` or `gopm help install`:
 ### `gopm install`
 
 - Feature: Link dependencies according to gopmfile for current project and go install.
+- Detail: Download missing dependencies then link and install them.
 - Example: `gopm install`.
 
 ### `gopm install <import path>`
 
 - Feature: Link dependencies according to gopmfile of given import path and go install.
+- Detail: Download missing dependencies then link and install them.
 - Example: `gopm install github.com/Unknwon/com`.
 
 ## Options

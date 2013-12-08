@@ -21,6 +21,7 @@ build 命令
 ### `gopm build <go build commands>`
 
 - 功能：根据 gopmfile 链接依赖并执行 go build。
+- 说明：下载丢失的依赖并链接，然后构建二进制。
 - 示例：`gopm build`。
 
 ## 选项

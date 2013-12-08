@@ -25,11 +25,13 @@ install 命令
 ### `gopm install`
 
 - 功能：根据当前项目 gopmfile 链接依赖并执行 go install。
+- 说明：下载丢失的依赖然后链接并安装它们。
 - 示例：`gopm install`。
 
 ### `gopm install <import path>`
 
 - 功能：根据指定导入路径 gopmfile 链接依赖并执行 go install。
+- 说明：下载丢失的依赖然后链接并安装它们。
 - 示例：`gopm install github.com/Unknwon/com`。
 
 ## 选项

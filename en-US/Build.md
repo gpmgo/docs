@@ -21,6 +21,7 @@ Help information: `gopm build -h` or `gopm help build`:
 ### `gopm build <go build commands>`
 
 - Feature: Link dependencies according to gopmfile and go build.
+- Detail: Downloads missing dependencies and link them then build binary for current project.
 - Example: `gopm build`.
 
 ## Options
