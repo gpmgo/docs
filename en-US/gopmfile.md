@@ -15,7 +15,7 @@ A sample gopmfile:
 
 ## How to write package version
 
-There are 4 possible patterns for package version:
+There are 5 possible patterns for package version:
 
 - Blank: which means always build with latest version of dependency.
 - `/path/to/my/project`：directory path, for example: `d:\projects\xorm`.
