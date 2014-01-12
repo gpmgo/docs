@@ -16,6 +16,7 @@ Help information: `gopm build -h` or `gopm help build`:
 	gopm build <go build commands>
 	
 	OPTIONS:
+	   --update, -u		update pakcage(s) and dependencies if any
 	   --verbose, -v	show process details
    
 ### `gopm build <go build commands>`
@@ -26,4 +27,5 @@ Help information: `gopm build -h` or `gopm help build`:
 
 ## Options
 
+- `--update, -u`: update pakcage(s) and dependencies before building.
 - `--verbose, -v`: show process details.

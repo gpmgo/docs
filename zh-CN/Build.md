@@ -16,6 +16,7 @@ build 命令
 	gopm build <go build commands>
 	
 	OPTIONS:
+	   --update, -u		update pakcage(s) and dependencies if any
 	   --verbose, -v	show process details
    
 ### `gopm build <go build commands>`
@@ -26,4 +27,5 @@ build 命令
 
 ## 选项
 
+- `--update, -u`：在构建之前检查包和依赖更新。
 - `--verbose, -v`：显示详细信息。
