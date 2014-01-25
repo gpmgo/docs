@@ -9,17 +9,17 @@ Gopm(Go Package Manager) is a Go package manage tool for search, install, update
 
 ## Installation
 
-Because we do NOT offer binaries for now, so before you install the gopm, you should have already installed Go Development Environment with version 1.1 and later.
+We use [gobuild](http://build.gopm.io) to do online cross-platform compile work, you can see the full available binary list [here](http://gobuild.io/download/github.com/gpmgo/gopm).
 
-```
-go get -u github.com/gpmgo/gopm
-```
+### Install from source code
+
+	go get -u github.com/gpmgo/gopm
 
 The executable will be produced under `$GOPATH/bin` in your file system; for global use purpose, we recommand you to add this path into your `PATH` environment variable.
 
 ## Features
 
-- No requirement for installing any version control system tool like `git`, `svn` or `hg` in order to download packages(although you have to install git for installing gopm though `go get` for now).
+- No requirement for installing any version control system tool like `git`, `svn` or `hg` in order to download packages.
 - Download, install or build your packages with specific revisions.
 - When build program with `gopm build` or `gopm install`, everything just happen in its own GOPATH and do not bother anything you've done unless you told to.
 - Put your Go projects on anywhere you want(through gopmfile).
@@ -33,4 +33,5 @@ The executable will be produced under `$GOPATH/bin` in your file system; for glo
 - [Commnad run](Run.md)
 - [Command build](Build.md)
 - [Commnad install](Install.md)
+- [Commnad update](Update.md)
 - [gopmfile](gopmfile.md)

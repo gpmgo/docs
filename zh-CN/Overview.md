@@ -9,11 +9,11 @@ Gopm(Go 包管理工具) 是一个用于搜索、安装、更新和分享 Go 包
 
 ## 安装步骤
 
-因为我们暂时不提供二进制的发布，因此您必须在使用 gopm 之前安装 Go 开发环境 1.1 或更高。
+我们使用 [gobuild](http://build.gopm.io) 来完成在线跨平台编译工作，您可以在 [这里](http://gobuild.io/download/github.com/gpmgo/gopm) 找到完整的二进制下载列表。
 
-```
-go get -u github.com/gpmgo/gopm
-```
+### 通过源码安装
+
+	go get -u github.com/gpmgo/gopm
 
 可执行文件将会生成在 `$GOPATH/bin` 目录下；为了更加方便的全局调用，我们建议您将该目录增加到 `PATH` 环境变量中。
 
@@ -33,4 +33,5 @@ go get -u github.com/gpmgo/gopm
 - [run 命令](Run.md)
 - [build 命令](Build.md)
 - [install 命令](Install.md)
+- [update 命令](Update.md)
 - [gopmfile](gopmfile.md)
