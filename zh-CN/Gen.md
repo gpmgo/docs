@@ -44,7 +44,7 @@ Help information: `gopm gen -h` or `gopm help gen`:
 	
 需要注意的是，该命令只会列出直接依赖包；也就是说它不会记录 beego、i18n、com 包依赖谁，因为这是这些包的作者的责任。
 
-有关如果书写包版本的信息，请阅读 [gopmfile](Gopmfile.md)。
+有关如何书写包版本的信息，请阅读 [gopmfile](Gopmfile.md)。
 
 
 ## 选项
