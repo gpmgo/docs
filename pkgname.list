@@ -1,3 +1,5 @@
+gogs=github.com/gogits/gogs
+macaron=github.com/Unknwon/macaron
 beego=github.com/astaxie/beego
 xorm=github.com/lunny/xorm
 beeweb=github.com/beego/beeweb
@@ -14,4 +16,8 @@ goconvey=github.com/smartystreets/goconvey
 qml=github.com/niemeyer/qml
 goquery=github.com/PuerkitoBio/goquery
 xweb=github.com/lunny/xweb
-gogs=github.com/gogits/gogs
+fsnotify=github.com/go-fsnotify/fsnotify
+go.net=code.google.com/p/go.net
+go.tools=code.google.com/p/go.tools
+blackfriday=github.com/russross/blackfriday
+resize=github.com/nfnt/resize
