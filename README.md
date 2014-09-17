@@ -5,8 +5,8 @@ An open source project for documentation of [gopm](https://github.com/gpmgo/gopm
 
 ## Languages
 
-- [English](en-US/Overview.md)
-- [简体中文](zh-CN/Overview.md)
+- [English](en-US/README.md)
+- [简体中文](zh-CN/README.md)
 
 ## Feedback
 
