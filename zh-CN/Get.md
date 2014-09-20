@@ -1,34 +1,38 @@
 get 命令
-====
+=======
 
 帮助信息：`gopm get -h` 或 `gopm help get`：
 
-	NAME:
-	   get - fetch remote package(s) and dependencies to local repository
-	
-	USAGE:
-	   command get [command options] [arguments...]
-	
-	DESCRIPTION:
-	   Command get fetches a package, and any pakcage that it depents on.
-	If the package has a gopmfile, the fetch process will be driven by that.
-	
-	gopm get
-	gopm get <import path>@[<tag|commit|branch>:<value>]
-	gopm get <package name>@[<tag|commit|branch>:<value>]
-	
-	Can specify one or more: gopm get beego@tag:v0.9.0 github.com/beego/bee
-	
-	If no version specified and package exists in GOPATH,
-	it will be skipped unless user enabled '--remote, -r' option
-	then all the packages go into gopm local repository.
-	
-	OPTIONS:
-	   --gopath, -g		download all pakcages to GOPATH
-	   --update, -u		update pakcage(s) and dependencies if any
-	   --example, -e	download dependencies for example folder
-	   --remote, -r		download all pakcages to gopm local repository
-	   --verbose, -v	show process details
+```
+NAME:
+   get - fetch remote package(s) and dependencies
+
+USAGE:
+   command get [command options] [arguments...]
+
+DESCRIPTION:
+   Command get fetches a package or packages,
+and any pakcage that it or they depend(s) on.
+If the package has a gopmfile, the fetch process will be driven by that.
+
+gopm get
+gopm get <import path>@[<tag|commit|branch>:<value>]
+gopm get <package name>@[<tag|commit|branch>:<value>]
+
+Can specify one or more: gopm get cli@tag:v1.2.0 github.com/Unknwon/macaron
+
+If no version specified and package exists in GOPATH,
+it will be skipped, unless user enabled '--remote, -r' option
+then all the packages go into gopm local repository.
+
+OPTIONS:
+   --download, -d	download given package only
+   --update, -u		update pakcage(s) and dependencies if any
+   --local, -l		download all packages to local GOPATH
+   --gopath, -g		download all pakcages to GOPATH
+   --remote, -r		download all pakcages to gopm local repository
+   --verbose, -v	show process details
+```
    
 ### `gopm get`
 
@@ -113,8 +117,8 @@ get 命令
 
 ## 选项
 
-- `--gopath, -g	`：下载所有包至 GOPATH 中。
+- `--download, -d`：仅下载当前指定的包。
 - `--update, -u`：检查更新所有包。
-- `--example, -e`：为示例（example）目录下载依赖。
+- `--gopath, -g	`：下载所有包至 GOPATH 中。
 - `--remote, -r`：将所有包下载至 gopm 本地仓库。
 - `--verbose, -v`：显示详细信息。
