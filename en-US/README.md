@@ -1,7 +1,8 @@
 Index
 ========
 
-- [Quick start](Quickstart.md)
+- [Quick start](quickstart.md)
+- [Command list](list.md)
 - [Command get](Get.md)
 - [Command bin](Bin.md)
 - [Command gen](Gen.md)

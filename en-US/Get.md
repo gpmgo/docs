@@ -26,6 +26,7 @@ it will be skipped, unless user enabled '--remote, -r' option
 then all the packages go into gopm local repository.
 
 OPTIONS:
+   --tags 			apply build tags
    --download, -d	download given package only
    --update, -u		update pakcage(s) and dependencies if any
    --local, -l		download all packages to local GOPATH
@@ -115,6 +116,7 @@ See [well-known Go projects list](../pkgname.list) for details.
 
 ## Options
 
+- `--tags`: apply build tags.
 - `--download, -d`: download given package only.
 - `--update, -u`: update pakcage(s) and dependencies if any.
 - `--gopath, -g	`: download all pakcages to GOPATH.
