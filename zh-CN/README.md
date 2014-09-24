@@ -3,9 +3,9 @@
 
 - [快速入门](quickstart.md)
 - [list 命令](list.md)
+- [gen 命令](gen.md)
 - [get 命令](Get.md)
 - [bin 命令](Bin.md)
-- [gen 命令](Gen.md)
 - [run 命令](Run.md)
 - [build 命令](Build.md)
 - [install 命令](Install.md)
