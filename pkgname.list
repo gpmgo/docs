@@ -1,7 +1,7 @@
 gogs=github.com/gogits/gogs
 macaron=github.com/Unknwon/macaron
 beego=github.com/astaxie/beego
-xorm=github.com/lunny/xorm
+xorm=github.com/go-xorm/xorm
 beeweb=github.com/beego/beeweb
 qbs=github.com/coocood/qbs
 jas=github.com/coocood/jas

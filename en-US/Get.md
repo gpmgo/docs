@@ -1,5 +1,5 @@
 Command get
-====
+===========
 
 Help information: `gopm get -h` or `gopm help get`:
 
@@ -41,7 +41,7 @@ OPTIONS:
 - Detail: No argument means get dependencies for project that is in work directory, if a gopmfile is supplied, then will get based on the information from gopmfile.
 - Example: `gopm get`.
 
-#### Usage cases
+#### Usage example
 
 ##### `gopm get`
 
@@ -59,18 +59,21 @@ And there is a gopmfile:
 	
 Output:
 
-	[target]
-	path=github.com/gpmgo/gopm
-	
-	[deps]
-	github.com/codegangsta/cli=
-	github.com/Unknwon/com=
-	github.com/Unknwon/goconfig=
-	github.com/aybabtme/color=
+```
+[target]
+path = github.com/gpmgo/gopm
+
+[deps]
+github.com/Unknwon/com =
+github.com/Unknwon/goconfig =
+github.com/aybabtme/color =
+github.com/codegangsta/cli =
+github.com/Unknwon/cae =
+```
 	
 So the command will downloads 4 packages(into gopm local repository `~/.gopm/repos`) in `deps` section if there do not exist in your `$GOPATH`.
 
-Suppose you need to download them all into your GOPATH so you may able to make some changes and then compile gopm. Use option `--gopath, -g` to achieve that.
+Suppose you need to download them all into your `$GOPATH` so you may able to make some changes and then compile gopm. Use option `--gopath, -g` to achieve that.
 
 However, in case you want to keep your `$GOPATH` clean and download all of them into gopm local repository. Use option `--remote, -r` to achieve that.
 
@@ -79,26 +82,26 @@ However, in case you want to keep your `$GOPATH` clean and download all of them 
 - Feature: Fetch remote package(s) and dependencies to local repository according to specified version.
 - Detail: This command can accept one or more import paths with/without specified version.
 - Example:
-	- Latest version: `gopm get github.com/lunny/xorm`.
-	- Certain branch: `gopm get github.com/lunny/xorm@branch:master`.
-	- Specified tag: `gopm get github.com/lunny/xorm@tag:v0.2.3`.
-	- Fixed commit: `gopm get github.com/lunny/xorm@commit:6ffffe9`.
+	- Latest version: `gopm get github.com/go-xorm/xorm`.
+	- Certain branch: `gopm get github.com/go-xorm/xorm@branch:master`.
+	- Specified tag: `gopm get github.com/go-xorm/xorm@tag:v0.2.3`.
+	- Fixed commit: `gopm get github.com/go-xorm/xorm@commit:6ffffe9`.
 
-#### Usage cases
+#### Usage example
 
-##### Latest version: `gopm get github.com/lunny/xorm`
+##### Latest version: `gopm get github.com/go-xorm/xorm`
 
 This downloads the latest version of xorm, and its dependencies according to its gopmfile.
 
-##### Certain branch: `gopm get github.com/lunny/xorm@branch:master`
+##### Certain branch: `gopm get github.com/go-xorm/xorm@branch:master`
 
 This downloads the latest version of xorm in master branch, and its dependencies according to its gopmfile.
 
-##### Specified tag: `gopm get github.com/lunny/xorm@tag:v0.2.3`
+##### Specified tag: `gopm get github.com/go-xorm/xorm@tag:v0.2.3`
 
 This downloads the version of xorm in `tag:v0.2.3`, and its dependencies according to its gopmfile.
 
-##### Fixed commit: `gopm get github.com/lunny/xorm@commit:6ffffe9`
+##### Fixed commit: `gopm get github.com/go-xorm/xorm@commit:6ffffe9`
 
 This downloads the version of xorm in `commit:6ffffe9`, and its dependencies according to its gopmfile.
 	
