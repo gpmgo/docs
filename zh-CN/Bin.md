@@ -1,28 +1,32 @@
 bin 命令
-====
+=======
 
 帮助信息：`gopm bin -h` 或 `gopm bin get`：
 
-	NAME:
-	   bin - download and link dependencies and build executable binary
-	
-	USAGE:
-	   command bin [command options] [arguments...]
-	
-	DESCRIPTION:
-	   Command bin downloads and links dependencies according to gopmfile,
-	and build executable binary to work directory
-	
-	gopm bin <import path>@[<tag|commit|branch>:<value>]
-	gopm bin <package name>@[<tag|commit|branch>:<value>]
-	
-	Can only specify one each time, and only works for projects that
-	contain main package
-	
-	OPTIONS:
-	   --dir, -d		build binary to given directory(second argument)
-	   --update, -u		update pakcage(s) and dependencies if any
-	   --verbose, -v	show process details
+```
+NAME:
+   bin - download and link dependencies and build binary
+
+USAGE:
+   command bin [command options] [arguments...]
+
+DESCRIPTION:
+   Command bin downloads and links dependencies according to gopmfile,
+and build executable binary to work directory
+
+gopm bin <import path>@[<tag|commit|branch>:<value>]
+gopm bin <package name>@[<tag|commit|branch>:<value>]
+
+Can only specify one each time, and only works for projects that
+contain main package
+
+OPTIONS:
+   --tags 		apply build tags
+   --dir, -d './'	build binary to given directory
+   --update, -u		update pakcage(s) and dependencies if any
+   --remote, -r		build with pakcages in gopm local repository only
+   --verbose, -v	show process details
+```
    
 ### `gopm bin <import path>@[<tag|commit|branch>:<value>]`
 
@@ -34,9 +38,9 @@ bin 命令
 	- 指定标签（tag）：`gopm bin github.com/gpmgo/gopm@tag:tag:v0.1.0`。
 	- 某个提交（commit）：`gopm bin github.com/gpmgo/gopm@commit:23ce93a`。
 	
-#### 使用用例
+#### 使用示例
 
-如果您想要将二进制构建至指定路径，则可以使用 `--dir, -d` 选项来达到目的。例如，我想将 gopm 构建至 `$GOROOT/bin`，则我应该执行 `gopm bin -d github.com/gpmgo/gopm $GOROOT/bin`。
+如果您想要将二进制构建至指定路径，则可以使用 `--dir, -d` 选项来达到目的。例如，我想将 gopm 构建至 `$GOROOT/bin`，则我应该执行 `gopm bin -d $GOROOT/bin github.com/gpmgo/gopm`。
 
 ##### 最新版本：`gopm bin github.com/gpmgo/gopm`
 
@@ -68,6 +72,7 @@ bin 命令
 
 ## 选项
 
-- `-dir, -d`：构建可执行文件到指定目录（第二个参数）。
+- `--tags`：应用构建 tags。
+- `-dir, -d`：构建可执行文件到指定目录。
 - `--update, -u`：检查更新所有包。
 - `--verbose, -v`：显示详细信息。

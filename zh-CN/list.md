@@ -60,6 +60,6 @@ Dependency list(20):
 
 ## 选项
 
-- `--tags`：在列举依赖时应用构建 tags。
+- `--tags`：应用构建 tags。
 - `--test, -t`：列举出 test 文件的依赖。
 - `--verbose, -v`：显示详细信息。

@@ -60,6 +60,6 @@ Dependency list(20):
 
 ## Options
 
-- `--tags`: apply build tags when list dependencies.
+- `--tags`: apply build tags.
 - `--test, -t`: list dependencies of test files.
 - `--verbose, -v`: show process details.

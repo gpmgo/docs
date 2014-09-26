@@ -1,28 +1,32 @@
 Command bin
-====
+===========
 
 Help information: `gopm bin -h` or `gopm help bin`:
 
-	NAME:
-	   bin - download and link dependencies and build executable binary
-	
-	USAGE:
-	   command bin [command options] [arguments...]
-	
-	DESCRIPTION:
-	   Command bin downloads and links dependencies according to gopmfile,
-	and build executable binary to work directory
-	
-	gopm bin <import path>@[<tag|commit|branch>:<value>]
-	gopm bin <package name>@[<tag|commit|branch>:<value>]
-	
-	Can only specify one each time, and only works for projects that
-	contain main package
-	
-	OPTIONS:
-	   --dir, -d		build binary to given directory(second argument)
-	   --update, -u		update pakcage(s) and dependencies if any
-	   --verbose, -v	show process details
+```
+NAME:
+   bin - download and link dependencies and build binary
+
+USAGE:
+   command bin [command options] [arguments...]
+
+DESCRIPTION:
+   Command bin downloads and links dependencies according to gopmfile,
+and build executable binary to work directory
+
+gopm bin <import path>@[<tag|commit|branch>:<value>]
+gopm bin <package name>@[<tag|commit|branch>:<value>]
+
+Can only specify one each time, and only works for projects that
+contain main package
+
+OPTIONS:
+   --tags 		apply build tags
+   --dir, -d './'	build binary to given directory
+   --update, -u		update pakcage(s) and dependencies if any
+   --remote, -r		build with pakcages in gopm local repository only
+   --verbose, -v	show process details
+```
    
 ### `gopm bin <import path>@[<tag|commit|branch>:<value>]`
 
@@ -34,9 +38,9 @@ Help information: `gopm bin -h` or `gopm help bin`:
 	- Specified tag: `gopm bin github.com/gpmgo/gopm@tag:v0.1.0`.
 	- Fixed commit: `gopm bin github.com/gpmgo/gopm@commit:23ce93a`.
 	
-#### Usage cases
+#### Usage example
 
-In case you want to build binary to specified path, you can use option `--dir, -d` to achieve that. For example, I want to build gopm to `$GOROOT/bin`, then I should execute `gopm bin -d github.com/gpmgo/gopm $GOROOT/bin`.
+In case you want to build binary to specified path, you can use option `--dir, -d` to achieve that. For example, I want to build gopm to `$GOROOT/bin`, then I should execute `gopm bin -d $GOROOT/bin github.com/gpmgo/gopm`.
 
 ##### Latest version: `gopm bin github.com/gpmgo/gopm`
 
@@ -68,6 +72,7 @@ See [well-known Go projects list](../pkgname.list) for details.
 
 ## Options
 
-- `-dir, -d`: build binary to given directory(second argument).
+- `--tags`: apply build tags.
+- `-dir, -d`: build binary to given directory.
 - `--update, -u`: update pakcage(s) and dependencies if any.
 - `--verbose, -v`: show process details.
