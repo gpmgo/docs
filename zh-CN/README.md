@@ -6,7 +6,7 @@
 - [gen 命令](gen.md)
 - [get 命令](get.md)
 - [bin 命令](bin.md)
-- [run 命令](Run.md)
+- [run 命令](run.md)
 - [build 命令](Build.md)
 - [install 命令](Install.md)
 - [update 命令](Update.md)
