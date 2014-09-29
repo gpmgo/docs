@@ -7,7 +7,7 @@ Index
 - [Command get](get.md)
 - [Command bin](bin.md)
 - [Commnad run](run.md)
-- [Command build](Build.md)
+- [Command build](build.md)
 - [Commnad install](Install.md)
 - [Commnad update](Update.md)
 - [gopmfile](gopmfile.md)
