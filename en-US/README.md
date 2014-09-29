@@ -8,6 +8,6 @@ Index
 - [Command bin](bin.md)
 - [Commnad run](run.md)
 - [Command build](build.md)
-- [Commnad install](Install.md)
+- [Commnad install](install.md)
 - [Commnad update](Update.md)
 - [gopmfile](gopmfile.md)

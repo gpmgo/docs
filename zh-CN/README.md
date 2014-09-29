@@ -8,6 +8,6 @@
 - [bin 命令](bin.md)
 - [run 命令](run.md)
 - [build 命令](build.md)
-- [install 命令](Install.md)
+- [install 命令](install.md)
 - [update 命令](Update.md)
 - [gopmfile](gopmfile.md)

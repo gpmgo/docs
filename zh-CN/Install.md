@@ -1,26 +1,28 @@
 install 命令
-====
+===========
 
 帮助信息：`gopm install -h` 或 `gopm help install`：
 
-	NAME:
-	   install - link dependencies and go install
-	
-	USAGE:
-	   command install [command options] [arguments...]
-	
-	DESCRIPTION:
-	   Command install links dependencies according to gopmfile,
-	and execute 'go install'
-	
-	gopm install
-	gopm install <import path>
-	
-	If no argument is supplied, then gopmfile must be present
-	
-	OPTIONS:
-	   --pkg, -p		only install non-main packages
-	   --verbose, -v	show process details
+```
+NAME:
+   install - link dependencies and go install
+
+USAGE:
+   command install [command options] [arguments...]
+
+DESCRIPTION:
+   Command install links dependencies according to gopmfile,
+and execute 'go install'
+
+gopm install
+
+If no argument is supplied, then gopmfile must be present
+
+OPTIONS:
+   --tags 		apply build tags
+   --remote, -r		build with pakcages in gopm local repository only
+   --verbose, -v	show process details
+```
    
 ### `gopm install`
 
@@ -36,5 +38,5 @@ install 命令
 
 ## 选项
 
-- `--pkg, -p`：只安装非 main 包。
+- `--tags`：应用构建 tags。
 - `--verbose, -v`：显示详细信息。
