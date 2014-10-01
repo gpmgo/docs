@@ -1,24 +1,26 @@
 update 命令
-====
+==========
 
 帮助信息：`gopm update -h` 或 `gopm help update`：
 
-	NAME:
-	   update - check and update gopm resources including itself
-	
-	USAGE:
-	   command update [command options] [arguments...]
-	
-	DESCRIPTION:
-	   Command update checks updates of resources and gopm itself.
-	
-	gopm update
-	
-	Resources will be updated automatically after executed this command,
-	but you have to confirm before updaing gopm itself.
-	
-	OPTIONS:
-	   --verbose, -v	show process details
+```
+NAME:
+   update - check and update gopm resources including itself
+
+USAGE:
+   command update [command options] [arguments...]
+
+DESCRIPTION:
+   Command update checks updates of resources and gopm itself.
+
+gopm update
+
+Resources will be updated automatically after executed this command,
+but you have to confirm before updaing gopm itself.
+
+OPTIONS:
+   --verbose, -v	show process details
+```
    
 ### `gopm update`
 
