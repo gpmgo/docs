@@ -1,7 +1,7 @@
 文档索引
 =======
 
-- [快速入门](quickstart.md)
+- [快速入门](Quickstart.md)
 - [list 命令](list.md)
 - [gen 命令](Gen.md)
 - [get 命令](Get.md)

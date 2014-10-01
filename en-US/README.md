@@ -1,7 +1,7 @@
 Index
 =====
 
-- [Quick start](quickstart.md)
+- [Quick start](Quickstart.md)
 - [Command list](list.md)
 - [Command gen](Gen.md)
 - [Command get](Get.md)
