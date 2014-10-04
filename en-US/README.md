@@ -7,6 +7,7 @@ Index
 - [Command get](Get.md)
 - [Command bin](Bin.md)
 - [Commnad run](Run.md)
+- [Commnad test](test.md)
 - [Command build](Build.md)
 - [Commnad install](Install.md)
 - [Commnad update](Update.md)
