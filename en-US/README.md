@@ -10,5 +10,6 @@ Index
 - [Commnad test](test.md)
 - [Command build](Build.md)
 - [Commnad install](Install.md)
+- [Commnad clean](clean.md)
 - [Commnad update](Update.md)
 - [gopmfile](gopmfile.md)

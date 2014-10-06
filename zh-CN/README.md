@@ -10,5 +10,6 @@
 - [test 命令](test.md)
 - [build 命令](Build.md)
 - [install 命令](Install.md)
+- [clean 命令](clean.md)
 - [update 命令](Update.md)
 - [gopmfile](gopmfile.md)
