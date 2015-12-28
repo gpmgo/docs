@@ -122,7 +122,7 @@ func main() {
 [GOPM] 14-09-17 18:07:29 [ INFO] Command executed successfully!
 ```
 	
-值得注意的是，gopm 为了下载了 3 个包（到 gopm 本地仓库），分别是 `github.com/astaxie/beego` 和 `github.com/garyburd/redigo` 这几个我并没有安装在我的电脑上，以及忽略了我已经安装（在 `$GOPATH`）的包 `code.google.com/p/vitess/go/memcache`。
+值得注意的是，gopm 为此下载了 3 个包（到 gopm 本地仓库），分别是 `github.com/astaxie/beego` 和 `github.com/garyburd/redigo` 这几个我并没有安装在我的电脑上，以及忽略了我已经安装（在 `$GOPATH`）的包 `code.google.com/p/vitess/go/memcache`。
 
 这个例子充分说明了 gopm 能够很好地与 `$GOPATH` 共同协作。
 
