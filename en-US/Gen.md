@@ -71,8 +71,6 @@ github.com/saintfish/chardet = commit:3af4cd4741
 include = conf|etc|public|scripts|templates
 ```
 
-Notice that it gets all indirectly dependencies as well, and it keeps version value if there were a gopmfile exists already.
-
 More information about how to write versions, please see [gopmfile](gopmfile.md).
 
 ## Options
