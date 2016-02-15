@@ -70,8 +70,6 @@ github.com/saintfish/chardet = commit:3af4cd4741
 [res]
 include = conf|etc|public|scripts|templates
 ```
-	
-需要注意的是，该命令会列出所有间接依赖。如果之前已经存在 gopmfile，则会保持依赖包之前的版本信息而不会重写。
 
 有关如何书写包版本的信息，请阅读 [gopmfile](gopmfile.md)。
 
