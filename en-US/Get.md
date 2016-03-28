@@ -12,7 +12,7 @@ USAGE:
 
 DESCRIPTION:
    Command get fetches a package or packages,
-and any pakcage that it or they depend(s) on.
+and any package that it or they depend(s) on.
 If the package has a gopmfile, the fetch process will be driven by that.
 
 gopm get
@@ -28,10 +28,10 @@ then all the packages go into gopm local repository.
 OPTIONS:
    --tags 			apply build tags
    --download, -d	download given package only
-   --update, -u		update pakcage(s) and dependencies if any
+   --update, -u		update package(s) and dependencies if any
    --local, -l		download all packages to local GOPATH
-   --gopath, -g		download all pakcages to GOPATH
-   --remote, -r		download all pakcages to gopm local repository
+   --gopath, -g		download all packages to GOPATH
+   --remote, -r		download all packages to gopm local repository
    --verbose, -v	show process details
 ```
    
@@ -121,7 +121,7 @@ See [well-known Go projects list](../pkgname.list) for details.
 
 - `--tags`: apply build tags.
 - `--download, -d`: download given package only.
-- `--update, -u`: update pakcage(s) and dependencies if any.
-- `--gopath, -g	`: download all pakcages to GOPATH.
-- `--remote, -r`: download all pakcages to gopm local repository.
+- `--update, -u`: update package(s) and dependencies if any.
+- `--gopath, -g	`: download all packages to GOPATH.
+- `--remote, -r`: download all packages to gopm local repository.
 - `--verbose, -v`: show process details.
