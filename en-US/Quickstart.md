@@ -32,13 +32,13 @@ Well done!
 
 ## gopmfile
 
-This file contains all the information that gopm needs, so let's see what can we do in this demo.
+This file contains all the information that gopm needs, so let's see what we can do in this demo.
 
 First, create `.gopmfile` in project root path:
 
 	$ touch .gopmfile
 	
-Good, copy and paste following content into file:
+Good, copy and paste the following content into file:
 
 	[target]
 	path = demo
@@ -55,7 +55,7 @@ Let's build with all default setting, which uses all latest version of all depen
 
 	$ gopm build
 	
-If the command executed successfully, nothing will be printed; however, if you want to see details, you can add option `-v` like follows:
+If the command executed successfully, nothing will be printed; however, if you want to see details, you can add option `-v` as follows:
 
 	$ gopm build -v
 	
@@ -87,7 +87,7 @@ And you should see something like:
 	
 ### Customize
 
-Let's say we want to build with `beego v0.9.0` due to some API breaks, so we want to change our gopmfile to be like follows:
+Let's say we want to build with `beego v0.9.0` due to some API breaks, so we want to change our gopmfile to be as follows:
 
 	[target]
 	path = demo
@@ -130,4 +130,4 @@ Now, the output should be:
 
 	Beego version: 0.9.0
 	
-Simple and cool, doesn't it?
+Simple and cool, isn't it?
